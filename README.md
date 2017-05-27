@@ -16,5 +16,5 @@ Projeyi çalıştırabilmek için:
 
 Swingx, Derby ve Jxl lib klasöründe mevcuttur. 
 
-Kullanıcı Adı : admin
-şifre : admin
+* Kullanıcı Adı : admin
+* şifre : admin
