@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Aidat Takip Yard&#x131;m"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="680" max="32767" attributes="0"/>
+              <Component id="btn_kapat" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="348" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="217" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btn_kapat" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Aidat Takip Yard&#x131;m&#x131;na Ho&#x15f; Geldiniz !"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="viewportBorder" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#xd6;neriler"/>
+          </Border>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txt_yardim">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="Program&#x131;n yapt&#x131;&#x11f;&#x131; i&#x15f;ler;&#xa;  1) Aidat sekmesinde Blok ve Aylara ayr&#x131;lm&#x131;&#x15f; se&#xe7;eneklerle, se&#xe7;ilen dairenin aidat&#x131; girilir.&#xa;  2) Aidat verenlerin ve vermeyenlerin ana tabloda bilgisi listelenir.&#xa;  3) Gelir sekmesinde, y&#x131;l i&#xe7;inde toplanan aidatlar&#x131;n toplam geliri listelenir.&#xa;  4) Gelir sekmesinde, ayl&#x131;k ve toplam y&#x131;ll&#x131;k olmak &#xfc;zere gider eklenebilir.&#xa;  5) Gider Ekle Penceresinde eklenen giderlere ait notlar girilebilir.&#xa;  6) Aidat ve Gelir sekmeleri istenirse &quot;Excel&apos;e &#xc7;evir&quot; butonuyla Excel&apos;e aktar&#x131;l&#x131;r.&#xa;  7) &#x130;&#x15f;lemler &gt; Daire Ekle sekmesinden daire eklenir/silinir.&#xa;  8) Daire Ekle penceresinde listelenen dairelere oturan ki&#x15f;ilerde eklenir/silinir/d&#xfc;zeltilir.&#xa;&#xa;Yap&#x131;lmamas&#x131; gerekenler;&#xa;  1) Program&#x131;n kurulu oldu&#x11f;u dizinde bulunan dosyalarda herhangir bir de&#x11f;i&#x15f;iklik yap&#x131;lmamal&#x131;d&#x131;r.&#xa;  2) Program&#x131;n amac&#x131;na ayk&#x131;r&#x131; i&#x15f;lemler uygulanmay&#x131;n.&#xa;  3) Bilgisayar&#x131; kapatmadan &#xf6;nce program&#x131; kapat&#x131;n. Program&#x131; G&#xf6;rev Y&#xf6;neticisinden zorla kapatmay&#x131;n.&#xa;&#xa;Program&#x131;n Kullan&#x131;m &#x15e;ekli;&#xa;  1) Aidat sekmesinde bir dairenin g&#xf6;z&#xfc;kmesi i&#xe7;in, &#x130;&#x15f;lemler &gt; Daire Ekle sekmesinden  &#xa;      Bulundu&#x11f;u blo&#x11f;u se&#xe7;erek daire numaras&#x131;n&#x131; girin.&#xa;  2) Aidat i&#x15f;lemlerinde mutlaka, dairenin &#xf6;deyece&#x11f;i ay&#x131; se&#xe7;erek girdi yap&#x131;n.&#xa;  3) Mutlaka her i&#x15f;lem sonras&#x131; &quot;Excel&apos;e &#xc7;evir&quot; butonuna basarak, se&#xe7;ilen blo&#x11f;un aidat bilgisini Excel&apos;e aktar&#x131;n."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btn_kapat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kapat"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_kapatActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
