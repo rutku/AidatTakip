@@ -1,10 +1,20 @@
-Bir site için yazdığım aidat takip sistemidir.
-Bu program eskidir ve örnek olsun diye konulmuştur.
-Çalışabilmesi için;
-+Netbeans
-+GlassFish 3
-+Derby
-+Swingx
-+Jxl
+# Aidat Takip
 
-lib klasörünün içerisinde Derby,Swingx ve Jxl kütüphaneleri mevcuttur.
+Yapabildikleri:
+* Daire Ekleme
+* Gider Ekleme
+* Excele Dönüştürme
+
+### Sadece kaynak olsun amacıyla paylaşıma sunulmuştur.
+
+Projeyi çalıştırabilmek için:
+* Netbeans
+* Swingx
+* Derby
+* Jxl
+* GlassFish
+
+Swingx, Derby ve Jxl lib klasöründe mevcuttur. 
+
+Kullanıcı Adı : admin
+şifre : admin
