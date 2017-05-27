@@ -7,14 +7,20 @@ Yapabildikleri:
 
 ### Sadece kaynak olsun amacıyla paylaşıma sunulmuştur.
 
-Projeyi çalıştırabilmek için:
+**Projeyi çalıştırabilmek için:**
 * Netbeans
 * Swingx
 * Derby
 * Jxl
 * GlassFish
 
-Swingx, Derby ve Jxl lib klasöründe mevcuttur. 
+Swingx, Derby ve Jxl kütüphaneleri **/lib** klasöründe mevcuttur. 
 
-* Kullanıcı Adı : admin
-* şifre : admin
+> **Not:** 
+
+> - **Kullanıcı Adı :** admin
+> - **Şifre :** admin
+
+![](https://i.hizliresim.com/37rad0.png)
+![](https://i.hizliresim.com/R0mVq7.png)
+![](https://i.hizliresim.com/p0yoLr.png)
